@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".DestinationActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="357dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="27dp"
+        android:baselineAlignBottom="false"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655"
+        app:srcCompat="@drawable/acko_cabs" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="CHOOSE YOUR DESTINATION!"
+        android:textAlignment="center"
+        android:textColor="#D0D0D0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mumbaibtn"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:background="@drawable/yellow"
+        android:drawableLeft="@drawable/gateway_of_india"
+        android:fontFamily="@font/damion"
+        android:text="Mumbai Mystique"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delhibtn"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:background="@drawable/yellow"
+        android:drawableLeft="@drawable/india_gate"
+        android:fontFamily="@font/damion"
+        android:text="Delhi Odyssey"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kashmirbtn"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:background="@drawable/yellow"
+        android:drawableLeft="@drawable/house_boat"
+        android:fontFamily="@font/damion"
+        android:text="Kashmir Serenade"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hydbtn"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:background="@drawable/yellow"
+        android:drawableLeft="@drawable/charminar"
+        android:fontFamily="@font/damion"
+        android:text="Hyderabad Essence"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/chennaibtn"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:background="@drawable/yellow"
+        android:drawableLeft="@drawable/chennai_central_railway_station"
+        android:fontFamily="@font/damion"
+        android:text="Chennai Melange"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutbtn"
+        android:layout_width="126dp"
+        android:layout_height="52dp"
+        android:background="@drawable/yellow"
+        android:text="LOGOUT"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

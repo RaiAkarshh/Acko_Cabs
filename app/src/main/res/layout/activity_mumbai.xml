@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:context=".Mumbai">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="MUMBAI MYSTIQUE"
+        android:textAlignment="center"
+        android:textColor="#776324"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="418dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mumbai" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="395dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="21dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Welcome to the vibrant city of Mumbai, where the captivating essence of &quot;Mumbai Mystique&quot; awaits you. Immerse yourself in its bustling streets, cultural diversity, and architectural wonders. Explore:  - The iconic Gateway of India - The scenic Marine Drive - The ancient Elephanta Caves - The bustling markets of Colaba and Crawford  Embark on a journey through this enchanting metropolis and unlock the secrets of Mumbai's charm."
+        android:textColor="#776324"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kasbutton"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/yellow"
+        android:text="BOOK A TOUR"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

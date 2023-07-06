@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:context=".Mumbai">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="CHENNAI MELANGE"
+        android:textAlignment="center"
+        android:textColor="#776324"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="418dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/chennai4k" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="395dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="21dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Welcome to the vibrant &quot;Chennai Melange,&quot; where tradition, art, and a coastal breeze merge harmoniously. Discover the diverse flavors of Chennai through:  - The ancient splendor of Kapaleeshwarar Temple - The serene Marina Beach - The historic Fort St. George - The artistic hub of DakshinaChitra  Immerse yourself in the cultural melange of Chennai, where history, art, and a bustling cityscape converge to create a truly captivating experience."
+        android:textColor="#776324"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kasbutton"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/yellow"
+        android:text="BOOK A TOUR"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

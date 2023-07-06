@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#776324"
+    tools:context=".Intro">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="393dp"
+        android:layout_height="718dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@drawable/_199018" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="434dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/acko_cabs" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_book_cab"
+        android:layout_width="134dp"
+        android:layout_height="71dp"
+        android:background="@drawable/rounded_button"
+        android:text="BOOK A CAB"
+        android:textColor="#776324"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_about_us"
+        android:layout_width="132dp"
+        android:layout_height="75dp"
+        android:background="@drawable/rounded_button"
+        android:text="ABOUT US"
+        android:textColor="#776324"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutbtn"
+        android:layout_width="144dp"
+        android:layout_height="60dp"
+        android:background="#000000"
+        android:text="LOGOUT"
+        android:textColor="#776324"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/check"
+        android:layout_width="132dp"
+        android:layout_height="75dp"
+        android:background="@drawable/rounded_button"
+        android:text="CHECK STATUS"
+        android:textColor="#776324"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+</androidx.constraintlayout.widget.ConstraintLayout>

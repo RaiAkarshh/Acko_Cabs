@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:context=".Mumbai">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="340dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="DELHI ODYSSEY"
+        android:textAlignment="center"
+        android:textColor="#776324"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="418dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/delhi2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="395dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="21dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Welcome to the enchanting &quot;Delhi Odyssey,&quot; where the rich tapestry of history and culture unfolds before your eyes. Explore the wonders of Delhi through:  - The majestic Red Fort - The serene Lotus Temple - The grandeur of Humayun's Tomb - The bustling lanes of Chandni Chowk  Let the vibrant colors, tantalizing aromas, and architectural marvels guide you on this extraordinary journey through the heart of India."
+        android:textColor="#776324"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kasbutton"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="356dp"
+        android:background="@drawable/yellow"
+        android:text="BOOK A TOUR"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
