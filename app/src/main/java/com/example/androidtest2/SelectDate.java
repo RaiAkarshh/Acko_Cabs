@@ -61,7 +61,7 @@ public class SelectDate extends AppCompatActivity {
 
 
 // Set an OnClickListener
-    }   
+    }
     private void insertbookingdata(){
         String place =getIntent().getStringExtra("Place");
         String price=getIntent().getStringExtra("Price");
